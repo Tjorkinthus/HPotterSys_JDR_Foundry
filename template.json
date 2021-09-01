@@ -1,5 +1,21 @@
 {
-    "Actor": {},
+    "Actor": {
+        "types":["Personnage"],
+        "personnage":{
+        "experience": 0,
+        "caractéristiques":{
+                "Force":"2D6+6",
+                "Constitution":"2D6+6",
+                "Taille":"2D6+6",
+                "Perception":"2D6+6",
+                "Dextérité":"2D6+6",
+                "Intelligence":"2D6+6",
+                "Apparence":"2D6+6",
+                "Pouvoir":"2D6+6"
+            }
+        }
+
+    },
     "Item": {
         "types":["Baguette"],
         "Baguette":{

@@ -1,8 +1,8 @@
-export default class HPotterSys_JDR_Foundryitemsheet extends Itemsheet{
+export default class HPotterSys_JDR_FoundryItemSheet extends ItemSheet{
     get template(){
-        console.log('HPotterSys_JDR_Foundry | Récupération du fichier html ${this.item.data.type}-sheet.');
+        console.log(`HPotterSys_JDR_Foundry | Récupération du fichier html ${this.item.data.type}-sheet.`);
 
-        return 'systems/HPotterSys_JDR_Foundry/templates/sheets/$(this.item.data.type)-sheet.html';
+        return `systems/HPotterSys_JDR_Foundry/templates/sheets/${this.item.data.type}-sheet.html`;
     }
 
     getData(){
