@@ -1,0 +1,28 @@
+{
+    "name": "HPotterSys_JDR_Foundry",
+    "title": "Harry Potter JDR",
+    "description": "Système de jeu basé sur les règles du JDR Harry Potter",
+    "version": "0.0.1",
+    "minimumCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "0.8.9",
+    "templateVersion": 2,
+    "author": "TJoRKiNTHuS",
+    "esmodules": [
+        "module/HPotterSys_JDR_Foundry.js"
+    ],
+    "styles": [
+        "css/HPotterSys_JDR_Foundry.css"
+    ],
+    "scripts": [],
+    "packs": [],
+    "languages": [],
+    "socket": false,
+    "initiative": "1d20",
+    "gridDistance": 1.5,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "",
+    "secondaryTokenAttribute": "",
+    "url": "https://github.com/Tjorkinthus/HPotterSys_JDR_Foundry",
+    "manifest": "",
+    "download": ""
+  }
