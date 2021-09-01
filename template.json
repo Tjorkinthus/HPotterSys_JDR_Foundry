@@ -1,0 +1,11 @@
+{
+    "Actor": {},
+    "Item": {
+        "types":["Baguette"],
+        "Baguette":{
+            "Bois": "surreau",
+            "Couleur": "cendre",
+            "Plume": "canari"
+        }
+    }
+}

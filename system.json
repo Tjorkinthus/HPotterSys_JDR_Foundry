@@ -1,8 +1,8 @@
 {
     "name": "HPotterSys_JDR_Foundry",
     "title": "Harry Potter JDR",
-    "description": "Système de jeu basé sur les règles du JDR Harry Potter",
-    "version": "0.0.1",
+    "description": "Système de jeu basé sur les règles du JDR Harry Potter porté sur FoundryVTT",
+    "version": "0.0.2",
     "minimumCoreVersion": "0.8.9",
     "compatibleCoreVersion": "0.8.9",
     "templateVersion": 2,
@@ -17,7 +17,6 @@
     "packs": [],
     "languages": [],
     "socket": false,
-    "initiative": "1d20",
     "gridDistance": 1.5,
     "gridUnits": "m",
     "primaryTokenAttribute": "",
