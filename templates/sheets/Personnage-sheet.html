@@ -1,23 +1,16 @@
 <form class="{{cssClass}}" autocomplete="off">
     <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="128" width="128"/>
     <h1><input name="name" type="text" value="{{actor.name}}" placeholder="Nom"/></h1>
+    
+    <!--{{#each data.caract as |crct val|}}
     <div>
-        <label>Force</label>
-            <input name="data.caracteristiques.Force" type="text" value="{{data.caracteristiques.Force}}"" placeholder="Force"/>
-        <label>Constitution</label>
-            <input name="data.caracteristiques.Constitution" type="text" value="{{data.caracteristiques.Constitution}}"" placeholder="Constitution"/>
-        <label>Taille</label>
-            <input name="data.caracteristiques.Taille" type="text" value="{{data.caracteristiques.Taille}}"" placeholder="Taille"/>
-        <label>Perception</label>
-            <input name="data.caracteristiques.Perception" type="text" value="{{data.caracteristiques.Perception}}"" placeholder="Perception"/>
-        <label>Dextérité</label>
-            <input name="data.caracteristiques.Dextérité" type="text" value="{{data.caracteristiques.Dextérité}}"" placeholder="Dextérité"/>
-        <label>Intelligence</label>
-            <input name="data.caracteristiques.Intelligence" type="text" value="{{data.caracteristiques.Intelligence}}"" placeholder="Intelligence"/>
-        <label>Apparence</label>
-            <input name="data.caracteristiques.Apparence" type="text" value="{{data.caracteristiques.Apparence}}"" placeholder="Apparence"/>
-        <label>Pouvoir</label>
-            <input name="data.caracteristiques.Pouvoir" type="text" value="{{data.caracteristiques.Pouvoir}}"" placeholder="Pouvoir"/>
-
+        <label>{{val}}</label>
+            <input name="data.caract.{{val}}.valeur" type="text" value="{{crct.valeur}}" data-dtype="Number"/>
     </div>
+    {{/each}}; 
+
+    -->
+
+
+
 </form>

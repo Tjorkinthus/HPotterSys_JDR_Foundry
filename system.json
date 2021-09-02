@@ -7,9 +7,7 @@
     "compatibleCoreVersion": "0.8.9",
     "templateVersion": 2,
     "author": "TJoRKiNTHuS",
-    "esmodules": [
-        "module/HPotterSys_JDR_Foundry.js"
-    ],
+    "esmodules": ["module/HPotterSys_JDR_Foundry.js"],
     "styles": [
         "css/HPotterSys_JDR_Foundry.css"
     ],

@@ -1,24 +1,37 @@
 {
     "Actor": {
         "types":["Personnage","PNJ"],
-        "Personnage":{
-        "experience": 0,
-        "Inventaire":[],
-        "Avantage":[],
-        "caracteristiques":{
-                "Force": 0,
-                "Constitution": 0,
-                "Taille": "2D6",
-                "Perception": "2D6",
-                "Dextérité": "2D6",
-                "Intelligence": "2D6",
-                "Apparence": "2D6",
-                "Pouvoir": "2D6"
-            }
-        },
+        "Personnage": {
+            "experience": 0,
+            "Inventaire":[],
+            "Avantage":[],
+            "caract": {
+                "force":{
+                    "valeur": 0
+                        },
+                "constitution":{
+                    "valeur": 0
+                        },
+                "taille":{
+                    "valeur": 0
+                         },
+                "perception":{
+                    "valeur": 0
+                             },
+                "dextérité":{
+                    "valeur": 0
+                            },
+                "apparence":{
+                    "valeur": 0
+                    },
+                "pouvoir": {
+                    "valeur": 0
+                            }
+                        }
+                        },
         "PNJ":{
             "experience": 0,
-            "caractéristiques":{
+            "caract":{
                     "Force":"2D6+6",
                     "Constitution":"2D6+6",
                     "Taille":"2D6+6",
@@ -27,10 +40,10 @@
                     "Intelligence":"2D6+6",
                     "Apparence":"2D6+6",
                     "Pouvoir":"2D6+6"
+                    }
                 }
-            }
 
-    },
+            },
     "Item": {
         "types":["Baguette"],
         "Baguette":{
