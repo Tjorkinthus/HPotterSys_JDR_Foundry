@@ -8,6 +8,8 @@ export default class HPotterSys_JDR_FoundryActorSheet extends ActorSheet{
     getData(){
         const data = super.getData();
 
+        data.data.pointsdevie = "mes pv";
+
         console.log(data);
 
         return data;

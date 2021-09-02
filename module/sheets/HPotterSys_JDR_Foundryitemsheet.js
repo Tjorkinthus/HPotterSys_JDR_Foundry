@@ -8,7 +8,7 @@ export default class HPotterSys_JDR_FoundryItemSheet extends ItemSheet{
     getData(){
         const data = super.getData();
 
-        console.log(data);
+                console.log(data);
 
         return data;
     }

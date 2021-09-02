@@ -5,8 +5,8 @@ Hooks.once("init", () => {
     console.log("HPotterSys_JDR_Foundry | Initialisation du système HP");
 
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("HPotterSys_JDR_Foundry", HPotterSys_JDR_FoundryItemSheet, { makeDefault: true});
+    Items.registerSheet("HPotterSys_JDR_Foundry", HPotterSys_JDR_FoundryItemSheet, {makeDefault: true});
 
     Actors.unregisterSheet("core", ActorSheet);
-    Actors.registerSheet("HPotterSys_JDR_Foundry", HPotterSys_JDR_FoundryActorSheet, { makeDefault: true});
+    Actors.registerSheet("HPotterSys_JDR_Foundry", HPotterSys_JDR_FoundryActorSheet, {makeDefault: true});
 })
